@@ -1,6 +1,8 @@
 package ma.enset;
 
 
+import ma.enset.enums.AccountStatus;
+import ma.enset.enums.AccountType;
 import ma.enset.model.*;
 import ma.enset.repository.AccountRepositoryImpl;
 import ma.enset.utils.JsonSerializer;

@@ -1,5 +1,8 @@
 package ma.enset.model;
 
+import ma.enset.enums.AccountStatus;
+import ma.enset.enums.AccountType;
+
 public class BankAccount implements Cloneable {
     private Long accountId;
     private double balance;

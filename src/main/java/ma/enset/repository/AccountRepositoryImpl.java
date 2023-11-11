@@ -1,8 +1,8 @@
 package ma.enset.repository;
 
 
-import ma.enset.model.AccountStatus;
-import ma.enset.model.AccountType;
+import ma.enset.enums.AccountStatus;
+import ma.enset.enums.AccountType;
 import ma.enset.model.BankAccount;
 import ma.enset.model.BankDirector;
 
