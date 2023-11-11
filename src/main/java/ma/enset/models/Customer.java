@@ -1,4 +1,4 @@
-package ma.enset.model;
+package ma.enset.models;
 
 public class Customer implements Cloneable {
     private Long customerId;

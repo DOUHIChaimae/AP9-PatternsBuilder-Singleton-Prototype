@@ -3,8 +3,8 @@ package ma.enset.repository;
 
 import ma.enset.enums.AccountStatus;
 import ma.enset.enums.AccountType;
-import ma.enset.model.BankAccount;
-import ma.enset.model.BankDirector;
+import ma.enset.models.BankAccount;
+import ma.enset.models.BankDirector;
 
 import java.util.HashMap;
 import java.util.List;

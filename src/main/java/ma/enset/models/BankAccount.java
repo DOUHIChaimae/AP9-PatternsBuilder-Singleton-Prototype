@@ -1,4 +1,4 @@
-package ma.enset.model;
+package ma.enset.models;
 
 import ma.enset.enums.AccountStatus;
 import ma.enset.enums.AccountType;

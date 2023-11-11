@@ -1,7 +1,7 @@
 package ma.enset.repository;
 
 
-import ma.enset.model.BankAccount;
+import ma.enset.models.BankAccount;
 
 import java.util.List;
 import java.util.Optional;
