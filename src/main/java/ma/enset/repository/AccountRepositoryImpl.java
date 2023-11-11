@@ -32,7 +32,7 @@ public class AccountRepositoryImpl implements AccountRepository {
         Long accountId;
 
         synchronized (this) {
-            accountId = ++accountCounter; //critical zone
+            accountId = ++accountCounter;
         }
         account.setAccountId(accountId);
 
@@ -94,14 +94,5 @@ public class AccountRepositoryImpl implements AccountRepository {
     public synchronized static AccountRepositoryImpl getInstance() {
         return accountRepository;
     }
-
-
-    /*public static AccountRepositoryImpl getInstance() {
-        if (accountRepository == null)
-            System.out.println("instantiation du singleton");
-            accountRepository = new AccountRepositoryImpl();
-            accountRepository.populateData();
-        return accountRepository;
-    }*/
 
 }
