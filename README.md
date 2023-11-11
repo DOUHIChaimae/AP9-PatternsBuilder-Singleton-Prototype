@@ -43,10 +43,18 @@ public class Customer {
 ## AccountRepository Interface
 ```java
 public interface AccountRepository {
-    void addAccount(BankAccount account);
-    List<BankAccount> getAllAccounts();
-    BankAccount getAccountById(Long id);
-    List<BankAccount> getAccountByPredicate(Predicate<BankAccount> predicate);
+    
+   BankAccount save(BankAccount account);
+
+   List<BankAccount> findAll();
+
+   Optional<BankAccount> findById(Long id);
+
+   List<BankAccount> searchAccounts(Predicate<BankAccount> predicate);
+
+   BankAccount update(BankAccount account);
+
+   void deleteById(Long id);
 }
 ```
 
