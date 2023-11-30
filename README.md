@@ -1,4 +1,4 @@
-# AP9- Builder, Singleton, Prototype Patterns
+# AP9- Builder, Singleton, Prototype Patterns 🚀✨
 ## Introduction
 In this activity, we will develop an object-oriented application for managing bank accounts. Each account is characterized by several attributes, including accountId, balance, currency, accountType, and accountStatus. The goal is to create a robust and flexible system that incorporates key object-oriented principles and design patterns.
 
@@ -207,7 +207,7 @@ public class Customer implements Cloneable {
 }
 ```
 
-## Conclusion
+## Conclusion 
 
 This activity implements object-oriented programming concepts and utilizes various design patterns such as Builder, Singleton, and Prototype to create a Java application for managing bank accounts. These patterns enhance flexibility, maintainability, and code reusability.
 
