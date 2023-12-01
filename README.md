@@ -1,4 +1,4 @@
-# AP9- Builder, Singleton, Prototype Patterns 🚀✨
+# AP9- Builder, Singleton, Prototype Patterns 📖✨
 ## Introduction
 In this activity, we will develop an object-oriented application for managing bank accounts. Each account is characterized by several attributes, including accountId, balance, currency, accountType, and accountStatus. The goal is to create a robust and flexible system that incorporates key object-oriented principles and design patterns.
 
